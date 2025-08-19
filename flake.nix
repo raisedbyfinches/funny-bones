@@ -34,6 +34,7 @@
         commonPackages = with pkgs; [
           python312      # Python 3.13 interpreter
           uv             # Modern Python dependency manager replacing virtualenv and pip
+          ruff           # Linter and formatter written in rust <3
           zlib           # Compression library for data compression
           git            # Version control system for tracking changes
           curl           # Command-line tool for transferring data with URLs

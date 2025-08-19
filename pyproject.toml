@@ -9,3 +9,11 @@ dependencies = [
     "polars>=1.32.3",
     "scikit-learn>=1.7.1",
 ]
+
+[dependency-groups]
+dev = [
+    "bandit>=1.8.6",
+    "pytest>=8.4.1",
+    "ruff>=0.12.9",
+    "ty>=0.0.1a19",
+]
